@@ -28,11 +28,12 @@ search_depth :
 max_search_depth:
 running_time:
 ```
-METHOD
-bfs - breadth-first search 
-dfs - depth-first search ast 
-A* search, in this case using the total Manhattan Distance heuristic
-
+## METHOD:
+<html>
+bfs - breadth-first search <br/>
+dfs - depth-first search ast <br/>
+A* search, in this case using the total Manhattan Distance heuristic <br/>
+</html>
 ## Contact
 <html>
 if you need any further information don't hesitate to contact me <br />
@@ -54,5 +55,4 @@ or send an E-mail here: <br />
  </body>
                
 Copyrights &copy; Ahmad Ibrahim Mohamed
-</html>
 </html>
