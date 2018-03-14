@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## 8-puzzle AI solver using BFS DFS AST
+## Ahmad Ibrahim
+# USEAGE:
+and AI program to solve the 8-puzzle game using python
 
-You can use the [editor on GitHub](https://github.com/ahmedibraheeem/8Puzzle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In the command line:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$ python driver.py <method> <board>
 ```
+where method: ‘bfs’, ‘dfs’ or ‘ast’ eg.
+```markdown
+$ python driver.py ast 0,2,5,6,3,4,1,7,8
+```
+represents the board 0 2 5 6 3 4 1 7 8 where 0 is the blank space
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This implementation treats the goal state as: 1 2 3 4 5 6 7 8 0 (some have the zero at top left)
 
-### Jekyll Themes
+## RETURNS:
+```markdown
+path_to_goal:
+cost_of_path: 
+nodes_expanded: 
+fringe_size:
+max_fringe_size: 
+search_depth :
+max_search_depth:
+running_time:
+```
+METHOD
+bfs - breadth-first search 
+dfs - depth-first search ast 
+A* search, in this case using the total Manhattan Distance heuristic
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ahmedibraheeem/8Puzzle/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contact
+<html>
+if you need any further information don't hesitate to contact me <br />
+E-mail: ahmedibraheeem100@gmail.com <br />
+whatsAPP: +201288395055 <br />
+view my LinkedIn page: <a href="https://www.linkedin.com/in/ahmad-ibrahim-2349b067/"> Click here! </a> <br />
+Facebook: <a href="https://www.facebook.com/ahmedibraheeeem">Click here! </a> <br />
+or send an E-mail here: <br />
+<html>
+      <body>            
+         <form action="https://formspree.io/ahmedibraheeem100@gmail.com"
+                  method="POST">
+                <p>Name: </p><input type="text" name="name"><br />
+                <p>Email: </p><input type="email" name="_replyto"> <br />
+                <p>Message:</p><input type="text" name="Message" size="50" ><br />
+                <input type="submit" value="Send"><br />
+            </form>
+      
+ </body>
+               
+Copyrights &copy; Ahmad Ibrahim Mohamed
+</html>
+</html>
