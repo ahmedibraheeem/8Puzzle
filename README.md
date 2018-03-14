@@ -10,6 +10,13 @@ In the command line:
 $ python driver.py <method> <board>
 ```
 where method: ‘bfs’, ‘dfs’ or ‘ast’ eg.
+
+## METHOD:
+<html>
+bfs - breadth-first search <br/>
+dfs - depth-first search ast <br/>
+A* search, in this case using the total Manhattan Distance heuristic <br/>
+</html>
 ```markdown
 $ python driver.py ast 0,2,5,6,3,4,1,7,8
 ```
@@ -28,12 +35,7 @@ search_depth :
 max_search_depth:
 running_time:
 ```
-## METHOD:
-<html>
-bfs - breadth-first search <br/>
-dfs - depth-first search ast <br/>
-A* search, in this case using the total Manhattan Distance heuristic <br/>
-</html>
+
 ## Contact:
 <html>
 if you need any further information don't hesitate to contact me <br />
