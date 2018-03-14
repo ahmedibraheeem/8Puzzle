@@ -1,7 +1,7 @@
 ## 8-puzzle AI solver using BFS DFS AST
 ## Ahmad Ibrahim
 # USEAGE:
-and AI program to solve the 8-puzzle game using python
+An AI program to solve the 8-puzzle game using python
 
 In the command line:
 
@@ -34,7 +34,7 @@ bfs - breadth-first search <br/>
 dfs - depth-first search ast <br/>
 A* search, in this case using the total Manhattan Distance heuristic <br/>
 </html>
-## Contact
+## Contact:
 <html>
 if you need any further information don't hesitate to contact me <br />
 E-mail: ahmedibraheeem100@gmail.com <br />
