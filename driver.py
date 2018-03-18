@@ -57,7 +57,7 @@ def main(argv):
                 print("search_depth:", state_depth, file=output_file)
                 print("max_search_depth:", search_output[2], file=output_file)
                 print("running_time:", end_time - start_time, file=output_file)
-                guiMain()
+                gui_main()
 
     output_file.close()
 
