@@ -7,7 +7,7 @@ class State:
 
     def __init__(self, current_state):
         self.positions = current_state
-		curent = current_state
+        curent=current_state
         self.parent = None
         self.move = None
         self.depth = 0
