@@ -12,7 +12,7 @@ import time
 def Glink():
     guiLink=open("link.txt","w")
     for i in state.curent:
-        guiLink.write(state.curent[i] + ",")
+        guiLink.write(state.positions[i] + ",")
 
 def main(argv):
     output_file = open('output.txt', 'w')
