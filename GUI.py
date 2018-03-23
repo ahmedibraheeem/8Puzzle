@@ -1,7 +1,7 @@
 import tkinter
 
 i = 0
-file = open("link.txt", "r")
+file = open("C:/Users/moham/Documents/GitHub/8Puzzle/link.txt", "r")
 cont = file.read()
 hamada = cont.split(',')
 

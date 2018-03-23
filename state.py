@@ -22,6 +22,9 @@ class State:
     def __hash__(self):
         return hash(tuple(self.positions))
 
+    def ret(self):
+        return self.positions
+
     def is_goal_state(self):
         return self.positions == State.GOAL_STATE
 

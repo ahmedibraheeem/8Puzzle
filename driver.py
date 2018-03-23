@@ -1,7 +1,7 @@
 #this program is created by Ahmad Ibrahim
 #https://github.com/ahmedibraheeem/8Puzzle
-import state
-from GUI import *
+
+import GUI
 from bfs import search as bfs_search
 from dfs import search as dfs_search
 from ast import search as ast_search
@@ -9,10 +9,12 @@ from state import *
 import sys
 import time
 
-def Glink():
-    guiLink=open("link.txt","w")
-    for i in state.curent:
-        guiLink.write(state.positions[i] + ",")
+
+def glink():
+    state_positions= State.ret()
+    guiLink=open("C:/Users/moham/Documents/GitHub/8Puzzle/link.txt","w")
+    for i in state_positions:
+        guiLink.write(state_positions[i] + ",")
 
 def main(argv):
     output_file = open('output.txt', 'w')
@@ -48,7 +50,7 @@ def main(argv):
                 links = []
                 state_depth = state.depth
                 while state.parent is not None:
-                    Glink()
+                    glink()
                     links = [state.move] + links
                     state = state.parent
                 print("path_to_goal:", links, file=output_file)
@@ -57,7 +59,7 @@ def main(argv):
                 print("search_depth:", state_depth, file=output_file)
                 print("max_search_depth:", search_output[2], file=output_file)
                 print("running_time:", end_time - start_time, file=output_file)
-                gui_main()
+                GUI.gui_main()
 
     output_file.close()
 
