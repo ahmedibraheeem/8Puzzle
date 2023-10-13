@@ -35,6 +35,3 @@ search_depth :
 max_search_depth:
 running_time:
 ```
-               
-Copyrights &copy; Ahmad Ibrahim
-</html>
