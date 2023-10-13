@@ -35,26 +35,6 @@ search_depth :
 max_search_depth:
 running_time:
 ```
-
-## Contact:
-<html>
-if you need any further information don't hesitate to contact me <br />
-E-mail: ahmedibraheeem100@gmail.com <br />
-whatsAPP: +201288395055 <br />
-view my LinkedIn page: <a href="https://www.linkedin.com/in/ahmad-ibrahim-2349b067/"> Click here! </a> <br />
-Facebook: <a href="https://www.facebook.com/ahmedibraheeeem">Click here! </a> <br />
-or send an E-mail here: <br />
-<html>
-      <body>            
-         <form action="https://formspree.io/ahmedibraheeem100@gmail.com"
-                  method="POST">
-                <p>Name: </p><input type="text" name="name"><br />
-                <p>Email: </p><input type="email" name="_replyto"> <br />
-                <p>Message:</p><input type="text" name="Message" size="50" ><br />
-                <input type="submit" value="Send"><br />
-            </form>
-      
- </body>
                
-Copyrights &copy; Ahmad Ibrahim Mohamed
+Copyrights &copy; Ahmad Ibrahim
 </html>
